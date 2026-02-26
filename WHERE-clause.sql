@@ -1,0 +1,8 @@
+SELECT *
+FROM orders
+WHERE order_date > '1990-01-01';
+
+
+SELECT *
+FROM customers
+WHERE birth_date > '1990-01-01' AND points > 1000;
