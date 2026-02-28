@@ -17,8 +17,12 @@ WHERE NOT (birth_date > '1990-01-01' OR points > 1000);
 
 SELECT *
 FROM order_items
+<<<<<<< HEAD
 WHERE order_id = '6' AND (quantity * unit_price > 30);
 
 SELECT *
 FROM order_items
 WHERE order_id = 2 AND (quantity * unit_price < 20);
+=======
+WHERE order_id = '6' AND (quantity * unit_price > 30);
+>>>>>>> a4a3187e0a17cb081cbffd4cd5f874f8aa0f2b48
